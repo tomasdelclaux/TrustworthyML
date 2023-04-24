@@ -268,7 +268,7 @@ if __name__ == "__main__":
             num_classes = 20
         else:
             data_file = "./Data/cifar100_fine_data.npz"
-            model_file = "./Models/cifae100_fine_{}.h5".format(model_type)
+            model_file = "./Models/cifar100_fine_{}.h5".format(model_type)
             num_classes = 100
 
     f_filter = int(sys.argv[4])
